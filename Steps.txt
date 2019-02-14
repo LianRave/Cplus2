@@ -1,0 +1,32 @@
+1) Crear un repositorio (En caso de no tener en una cuenta crear una)
+    - Ya contaba con cuenta en GitHub
+    - Clic en Repositories
+        Clic en New
+2) Crear un nuevo archivo con el nombre C++ y editarlo con algunas de las entradas del sitio web sugerido
+    - Clic en Create New File
+      Nombrar Archivo como C++
+      Agregar Informacion al Archivo
+      Dejar una descripcion de dicho archivo
+      Clic en commit
+3) Crear un nuevo brach y alli crear un archivo nuevo con el nombre "El mejor" con alguna de las entradas del sitio web sugerido
+      Clic en  "Branch: Master
+      Dar nombre al Branch nuevo
+      Ejecutar el paso 2 {
+        Nombre del Archivo: El mejor
+        Contenido: Alguna entrada del sitio web sugerido
+      }
+4) Copiar el contenido del archivo secuencia.txt en el sitio web sugerido
+      Ir al citio
+      Pegar Contenido
+      Ejecutar
+      Copiar resultado
+      Ejecutar el paso 2 {
+        Contenido :resultado obtenido
+      }
+5) Fusionar los cambios hechos en el branch con el contenido de la rama original del repositorio
+      Clic en compare & pull request
+      Arrastrar los archivos nuevos del Brach a la caja de archivos a actualizar
+      Clic en create pull request
+      Clic en Merge pull request
+      Clic en Confirm Merge
+      Borrar Branch
