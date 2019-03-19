@@ -149,7 +149,14 @@ void printStruct(void)
 	struct Clase local_struct; /*NO borre esta linea con la declaracion de la estructura local_struct */
 	
 	//De aqui en adelante se debe implementar la lógica en código de C++
+		Clase *ptr=&local_struct;
 	
+	cout<<"El valor en mem1 es : "<<*(char*)ptr<<endl;
+	cout<<"El valor en mem1 es : "<<*(double*)ptr+2
+	<<endl;
+	cout<<"El valor en mem1 es : "<<*(unsigned short*)ptr+5<<endl;
+	cout<<"El valor en mem1 es : "<<*(float*)ptr+0<<endl;
+	cout<<"El valor en mem1 es : "<<*(char*)ptr+0<<endl;
 	
 }
 
