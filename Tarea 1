@@ -6,6 +6,8 @@
 
 #include<iostream>
 #include<string>
+#include<cmath>
+
 
 using namespace std;
 
@@ -90,13 +92,22 @@ void CheckScrabble (string &palabra1, string &palabra2)
 	ok_chscrb = False; /*Por favor NO borre esta linea de codigo*/
 	
 	//De aqui en adelante se debe implementar la lógica en código de C++
-	size_str1=palabra1;
-	size_str1=palabra2;
+	int size_str1=palabra1.size();
+	int size_str2=palabra2.size();
 	
-	if(size_str1==size_str1){
-		for(x=0; x < size_str1 ; x++ ){
-			if()
+	int result1=0;
+	int result2=0;
+	
+	if(size_str1==size_str2){
+		for(int x=0; x < size_str1 ; x++ ){
+			if((palabra1[x]>=65)&&((palabra1[x]<=90))) palabra1[x] = palabra1[x] + 32;
+			if((palabra2[x]>=65)&&((palabra2[x]<=90))) palabra2[x] = palabra2[x] + 32;
+			
+			result1 = result1 + palabra1[x];
+			result2 = result2 + palabra2[x];
 		}
+		
+		if(result1 == result2) ok_chscrb = True;
 	}
 
 	
